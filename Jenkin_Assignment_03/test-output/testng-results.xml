@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="9" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-12T10:26:58 IST" name="Suite" finished-at="2023-05-12T10:26:58 IST" duration-ms="311">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="EasyCallLogin.EasyCalculaAdminLogin()[pri:0, instance:TestCaseWithinGroups.EasyCallLogin@2892dae4]" name="EasyCalculaAdminLogin" class="TestCaseWithinGroups.EasyCallLogin"/>
+        <method signature="OrangeHRMLogin.OrangeLogin()[pri:0, instance:TestCaseWithinGroups.OrangeHRMLogin@793be5ca]" name="OrangeLogin" class="TestCaseWithinGroups.OrangeHRMLogin"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test started-at="2023-05-12T10:26:58 IST" name="OrangeHRM Login" finished-at="2023-05-12T10:26:58 IST" duration-ms="95">
+      <class name="TestCaseWithinGroups.EasyCallLogin">
+        <test-method signature="EasyCalculaAdminLogin()[pri:0, instance:TestCaseWithinGroups.EasyCallLogin@2892dae4]" started-at="2023-05-12T10:26:58 IST" name="EasyCalculaAdminLogin" finished-at="2023-05-12T10:26:58 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EasyCalculaAdminLogin -->
+      </class> <!-- TestCaseWithinGroups.EasyCallLogin -->
+    </test> <!-- OrangeHRM Login -->
+    <test started-at="2023-05-12T10:26:58 IST" name="EasyCal Login" finished-at="2023-05-12T10:26:58 IST" duration-ms="8">
+      <class name="TestCaseWithinGroups.OrangeHRMLogin">
+        <test-method signature="OrangeLogin()[pri:0, instance:TestCaseWithinGroups.OrangeHRMLogin@793be5ca]" started-at="2023-05-12T10:26:58 IST" name="OrangeLogin" finished-at="2023-05-12T10:26:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeLogin -->
+      </class> <!-- TestCaseWithinGroups.OrangeHRMLogin -->
+    </test> <!-- EasyCal Login -->
+    <test started-at="2023-05-12T10:26:58 IST" name="DemoOpenCartLogin" finished-at="2023-05-12T10:26:58 IST" duration-ms="1">
+    </test> <!-- DemoOpenCartLogin -->
+  </suite> <!-- Suite -->
+</testng-results>

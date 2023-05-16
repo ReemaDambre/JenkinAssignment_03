@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<groups>
+<run>
+
+ <include name ="SmokeTest"/>
+</run>
+</groups>
+
+
+<test name="OrangeHRM Login">
+<classes>
+  
+      <class name="TestCaseWithinGroups.EasyCallLogin"/>
+      </classes>
+</test>
+
+<test name ="EasyCal Login">
+<classes>
+
+      <class name="TestCaseWithinGroups.OrangeHRMLogin"/>
+      </classes>
+</test>
+
+<test name ="DemoOpenCartLogin">
+<classes>
+      <class name="TestCaseWithinGroups.DemoOpenCartLogin"/>
+</classes>
+</test>
+
+</suite>
